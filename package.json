@@ -2,8 +2,10 @@
   "name": "frontend",
   "version": "0.0.1",
   "author": "Ionic Framework",
-  "homepage": "https://ionicframework.com/",
+  "homepage": "https://deepakmishraa.github.io/testdata",
   "scripts": {
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d build"
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
