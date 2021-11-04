@@ -1,0 +1,74 @@
+ion-back-button{
+  display: block;
+}
+
+#choose-file{
+  width: fit-content;
+}
+
+.content{
+  position: relative;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  ion-card{
+    z-index:1;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    ion-card-content{
+      position: relative;
+      display: grid;
+      align-items: center;
+      justify-items: center;
+
+      #logo{
+        position: absolute;
+        top: 4%;
+        left: 9%;
+        border-radius: 50%;
+        width: 55px;
+        height: 60px;
+      }
+      
+      #background-img{
+        background-size: cover;
+        background-attachment: fixed;
+      }
+      
+
+      h1, h3, h4{
+        position: absolute;
+        z-index: 5;
+        color: rgb(29, 28, 28);
+        font-weight: 700;
+      }
+
+      h1{
+        top: 3.5%;
+        font-size: 1.7rem;
+      }
+      
+      h3{
+        top: 9.5%;
+        font-size: 1.1rem;  
+      }
+      
+      h4{
+        top:13.8%;
+        left: 48%;
+        font-weight: 700;
+        font-size: 0.9rem;
+      }
+    }
+  }
+  
+  ion-button{
+    margin: 0 1rem;
+    width: fit-content;
+    justify-self: center;
+
+    ion-icon{
+      margin-right: 1rem;
+    }
+  }
+}
